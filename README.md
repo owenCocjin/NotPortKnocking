@@ -22,3 +22,7 @@ Some notes:
 - If any errors occur (such as invalid client signature, invalid port password, etc...), the server will simply send a message back reflecting this error, and nothing will be done.
 - All data going between client/server is encrypted using the other's pub key.
 - The port passwords are not meant to be secure passwords! They are more used as unique identifiers, but it does help to create strong ones. The main security concern is the private key.
+
+## Dependencies
+The following dependencies are required:
+- cryptography
